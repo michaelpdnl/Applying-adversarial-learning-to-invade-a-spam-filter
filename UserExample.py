@@ -1,6 +1,6 @@
 import SpamFilter
 
-if __name__!="__main__":
+if __name__=="__main__":
     Arrange("ham_all.txt","HamTrain.txt",range(3000))
     Arrange("ham_all.txt","HamTest.txt",range(3000,3200))
     Arrange("spam_all.txt","SpamTrain.txt",range(3000))
